@@ -1,0 +1,6 @@
+module: Ubic::Service::SimpleDaemon
+options:
+  bin: sleep 1000
+  ulimit:
+    cpu: 777
+    mem: 888
